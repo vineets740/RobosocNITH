@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;	
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 80%;
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+    max-height: 75px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(44, 38, 38);
+    color: white;
+}
+.nav-logo{
+    width: auto;
+    height: 100%;
+}
+.brand-name{
+    width: 30%;
+    height: 100%;
+    font-size: 1vw;
+}
+.brand-name span{
+    font-size:1.5vw;
+}
+.brand-name:hover{
+    border-bottom: 2px solid red;
+}
+.nav-btn{
+    width: 10%;
+    height: 100%;
+    font-size: 1.2vw;
+}
+.nav-btn:hover{
+    border-bottom: 2px solid red;
+}
+.banner{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    width: 80%;
+    padding: 0 10%;
+    height: 30vw;;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-shadow: 0 -6vw linear-gradient(black,white) ;
+}
+.banner span{
+    font-size: 3.5vw;
+    text-align: right;
+    color: white;
+    text-transform: capitalize;
+}
+.banner-description{
+    font-size: 1vw;
+    color:white;
+    text-align: right;
+}
+.banner button{
+    width: 10vw;
+    height: 2vw;
+    font-size: 1vw;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.banner button:hover{
+    animation-name: fill;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+.quick-links{
+    width: 80%;
+    margin: 0 10%;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid red;
+}
+.link{
+    width:6.75%;
+    text-align: center;
+    font-size: 1.3vw;
+    color: red;
+    /* background-color: red;
+    border: 2px solid black; */
+}
+.link img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.fac-co{
+    height: 30vw;
+    width: 80%;
+    margin: 2vw 10%;
+    border-bottom: 2px solid red;
+}
+.fac-co p{
+    font-size: 2vw;
+    text-align: center;
+}
+.hr{
+    width: 60%;
+    margin: 0 20%;
+    height: 2px;
+    background-color: red;
+}
+.fac-co--article{
+    margin: 2vw 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.fac-co--article-pic{
+    width: 20%;
+    height: auto;
+    font-size: 1vw;
+    text-align: center;
+    font-size: 1.2vw;
+}
+.fac-co--article-pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.fac-co--article-pic span{
+    font-size: 1.5vw;
+}
+.fac-co--article-text{
+    width: 60%;
+    height: 100%;
+}
+.fac-co--article-text p{
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+/* Keyframes */
+@keyframes fill{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: red;
+    }
+}
