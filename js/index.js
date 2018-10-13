@@ -8,15 +8,14 @@ var logo = document.getElementsByClassName("logo");
 hamIcon[0].addEventListener("click",function(){
     console.log("Entered");
     if(count == 0){
-        panel[0].style.width = "400px";
+        panel[0].style.width = "100%";
         count = 1;
-        icon[0].src="img/hamburger-icon.png";
+
         logo[0].style.display= "none";
     }
     else{
         panel[0].style.width = "0";
         count = 0;
-        icon[0].src="img/hamburger-icon-white.png";
         logo[0].style.display = "block";
     }
 });
