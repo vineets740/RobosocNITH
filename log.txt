@@ -1,0 +1,29 @@
+commit fe758db0a52d2e3562f41282bbcfac0ab9d4b695
+Author: Vineet Sharma <vineets740@gmail.com>
+Date:   Sat Oct 13 23:07:42 2018 +0530
+
+    Improved Version with side panel
+
+commit d8eec069caa7e0ca68bd80bac50d21c87374dd0f
+Author: Vineet Sharma <vineets740@gmail.com>
+Date:   Tue Oct 2 09:59:36 2018 +0530
+
+    New Version
+
+commit 8bb6c6e33f958323160d872d47eec668cdbeaf41
+Author: Vineet Sharma <vineets740@gmail.com>
+Date:   Sat Sep 22 21:49:53 2018 +0530
+
+    Final Layout
+
+commit d711f24cf321681fce5f2c2107208283b16fa272
+Author: Vineet Sharma <vineets740@gmail.com>
+Date:   Thu Sep 20 22:59:53 2018 +0530
+
+    Front Layout
+
+commit f114d9fef66918ddd27a4cc316f15056ea325805
+Author: Vineet Sharma <vineets740@gmail.com>
+Date:   Thu Sep 20 14:09:00 2018 +0530
+
+    first commit
